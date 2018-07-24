@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA5A040921079DC800A02E88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5A040821079DC800A02E88 /* AppDelegate.swift */; };
+		BA5A040B21079DC800A02E88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5A040A21079DC800A02E88 /* ViewController.swift */; };
+		BA5A040E21079DC800A02E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5A040C21079DC800A02E88 /* Main.storyboard */; };
+		BA5A041021079DE400A02E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5A040F21079DE400A02E88 /* Assets.xcassets */; };
+		BA5A041321079DE500A02E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5A041121079DE500A02E88 /* LaunchScreen.storyboard */; };
+		BA5A041E21079DE600A02E88 /* DysCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5A041D21079DE600A02E88 /* DysCalcTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA5A041A21079DE500A02E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA5A03FD21079DC700A02E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5A040421079DC700A02E88;
+			remoteInfo = DysCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA5A040521079DC700A02E88 /* DysCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DysCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5A040821079DC800A02E88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA5A040A21079DC800A02E88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA5A040D21079DC800A02E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA5A040F21079DE400A02E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA5A041221079DE500A02E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA5A041421079DE500A02E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5A041921079DE500A02E88 /* DysCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DysCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5A041D21079DE600A02E88 /* DysCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DysCalcTests.swift; sourceTree = "<group>"; };
+		BA5A041F21079DE600A02E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA5A040221079DC700A02E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5A041621079DE500A02E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA5A03FC21079DC700A02E88 = {
+			isa = PBXGroup;
+			children = (
+				BA5A040721079DC700A02E88 /* DysCalc */,
+				BA5A041C21079DE500A02E88 /* DysCalcTests */,
+				BA5A040621079DC700A02E88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA5A040621079DC700A02E88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA5A040521079DC700A02E88 /* DysCalc.app */,
+				BA5A041921079DE500A02E88 /* DysCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA5A040721079DC700A02E88 /* DysCalc */ = {
+			isa = PBXGroup;
+			children = (
+				BA5A040821079DC800A02E88 /* AppDelegate.swift */,
+				BA5A040A21079DC800A02E88 /* ViewController.swift */,
+				BA5A040C21079DC800A02E88 /* Main.storyboard */,
+				BA5A040F21079DE400A02E88 /* Assets.xcassets */,
+				BA5A041121079DE500A02E88 /* LaunchScreen.storyboard */,
+				BA5A041421079DE500A02E88 /* Info.plist */,
+			);
+			path = DysCalc;
+			sourceTree = "<group>";
+		};
+		BA5A041C21079DE500A02E88 /* DysCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA5A041D21079DE600A02E88 /* DysCalcTests.swift */,
+				BA5A041F21079DE600A02E88 /* Info.plist */,
+			);
+			path = DysCalcTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA5A040421079DC700A02E88 /* DysCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5A042221079DE600A02E88 /* Build configuration list for PBXNativeTarget "DysCalc" */;
+			buildPhases = (
+				BA5A040121079DC700A02E88 /* Sources */,
+				BA5A040221079DC700A02E88 /* Frameworks */,
+				BA5A040321079DC700A02E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DysCalc;
+			productName = DysCalc;
+			productReference = BA5A040521079DC700A02E88 /* DysCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA5A041821079DE500A02E88 /* DysCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5A042521079DE600A02E88 /* Build configuration list for PBXNativeTarget "DysCalcTests" */;
+			buildPhases = (
+				BA5A041521079DE500A02E88 /* Sources */,
+				BA5A041621079DE500A02E88 /* Frameworks */,
+				BA5A041721079DE500A02E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5A041B21079DE500A02E88 /* PBXTargetDependency */,
+			);
+			name = DysCalcTests;
+			productName = DysCalcTests;
+			productReference = BA5A041921079DE500A02E88 /* DysCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA5A03FD21079DC700A02E88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Matthew Curtner";
+				TargetAttributes = {
+					BA5A040421079DC700A02E88 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					BA5A041821079DE500A02E88 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BA5A040421079DC700A02E88;
+					};
+				};
+			};
+			buildConfigurationList = BA5A040021079DC700A02E88 /* Build configuration list for PBXProject "DysCalc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA5A03FC21079DC700A02E88;
+			productRefGroup = BA5A040621079DC700A02E88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA5A040421079DC700A02E88 /* DysCalc */,
+				BA5A041821079DE500A02E88 /* DysCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA5A040321079DC700A02E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5A041321079DE500A02E88 /* LaunchScreen.storyboard in Resources */,
+				BA5A041021079DE400A02E88 /* Assets.xcassets in Resources */,
+				BA5A040E21079DC800A02E88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5A041721079DE500A02E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA5A040121079DC700A02E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5A040B21079DC800A02E88 /* ViewController.swift in Sources */,
+				BA5A040921079DC800A02E88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5A041521079DE500A02E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5A041E21079DE600A02E88 /* DysCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA5A041B21079DE500A02E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5A040421079DC700A02E88 /* DysCalc */;
+			targetProxy = BA5A041A21079DE500A02E88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA5A040C21079DC800A02E88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5A040D21079DC800A02E88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA5A041121079DE500A02E88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5A041221079DE500A02E88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA5A042021079DE600A02E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA5A042121079DE600A02E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA5A042321079DE600A02E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M77G4VQ69B;
+				INFOPLIST_FILE = DysCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcurtner.DysCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA5A042421079DE600A02E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M77G4VQ69B;
+				INFOPLIST_FILE = DysCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcurtner.DysCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA5A042621079DE600A02E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M77G4VQ69B;
+				INFOPLIST_FILE = DysCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcurtner.DysCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DysCalc.app/DysCalc";
+			};
+			name = Debug;
+		};
+		BA5A042721079DE600A02E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M77G4VQ69B;
+				INFOPLIST_FILE = DysCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcurtner.DysCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DysCalc.app/DysCalc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA5A040021079DC700A02E88 /* Build configuration list for PBXProject "DysCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5A042021079DE600A02E88 /* Debug */,
+				BA5A042121079DE600A02E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5A042221079DE600A02E88 /* Build configuration list for PBXNativeTarget "DysCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5A042321079DE600A02E88 /* Debug */,
+				BA5A042421079DE600A02E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5A042521079DE600A02E88 /* Build configuration list for PBXNativeTarget "DysCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5A042621079DE600A02E88 /* Debug */,
+				BA5A042721079DE600A02E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA5A03FD21079DC700A02E88 /* Project object */;
+}
