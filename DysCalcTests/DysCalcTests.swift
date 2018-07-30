@@ -10,25 +10,28 @@ import XCTest
 @testable import DysCalc
 
 class DysCalcTests: XCTestCase {
-
+    
+    var controller: NumberController!
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        controller = NumberController()
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testRandomIntFromRange() {
+        XCTAssertNotNil(controller.randomIntFromRange(from: 0, to: 10))
+        XCTAssertEqual(controller.randomIntFromRange(from: 1, to: 1), 1)
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testExpectedSolution() {
+        controller.lhsInt = 5
+        controller.rhsInt = 10
+        controller.storeSolution()
+        
+        XCTAssertEqual(controller.expectedSolution, 15)
     }
-
 }
