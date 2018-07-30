@@ -78,6 +78,7 @@ class DysCalcViewController: UIViewController {
             } else {
                 print("Try Again")
                 showToast(message: "Try Again")
+                rhsLabel.textColor = .red
             }
         }
     }
